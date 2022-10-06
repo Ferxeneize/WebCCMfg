@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #016936;
+}
+.navbar .nav-link {
+  color: antiquewhite;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+.navbar .active {
+  text-decoration: underline;
+}
+
+#FCM {
+  background-color: rgba(156, 13, 13, 0.8862745098);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+.navbar{
+    background-color: $verde;
+    
+    
+    .nav-link{
+        &:hover { text-decoration: underline}  
+        color: antiquewhite;
+                 } 
+    .active{text-decoration: underline;     }
+     }
+#FCM {background-color: $rojo; }
