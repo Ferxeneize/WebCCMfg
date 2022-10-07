@@ -1,7 +1,6 @@
 
 
 .navbar{   background-color: $verde;
-    .navbar-brand{max-width: 350px;}
     
     .nav-link{   color: antiquewhite;
 
@@ -11,6 +10,13 @@
     .active{text-decoration: underline;  }
      }
 #FCM {background-color: $rojo; }
+
+
+@media (max-width: 768px){
+    .navbar-brand{max-width: 250px;}
+     }
+ 
+
 
 
 

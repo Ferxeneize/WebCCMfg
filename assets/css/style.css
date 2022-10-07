@@ -1,9 +1,6 @@
 .navbar {
   background-color: #016936;
 }
-.navbar .navbar-brand {
-  max-width: 350px;
-}
 .navbar .nav-link {
   color: antiquewhite;
 }
@@ -18,6 +15,11 @@
   background-color: rgba(156, 13, 13, 0.8862745098);
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    max-width: 250px;
+  }
+}
 .footer {
   padding: 15px;
   display: flex;
