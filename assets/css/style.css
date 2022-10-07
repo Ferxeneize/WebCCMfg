@@ -25,7 +25,7 @@
 }
 .footer .redes {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
 .footer .redes img {
   padding: 10px;
@@ -52,6 +52,30 @@
   background-color: rgba(156, 13, 13, 0.8862745098);
 }
 
-.prueba {
-  height: 200px;
-}/*# sourceMappingURL=style.css.map */
+/*Inicio Tarjetas sin boostrap*/
+.presentacion {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.presentacion h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+}
+.presentacion p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .presentacion {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logoccm {
+    max-width: 50%;
+  }
+}
+/*Fin Tarjetas sin boostrap*//*# sourceMappingURL=style.css.map */

@@ -2,10 +2,11 @@
     background-color: $verde;
     
     
-    .nav-link{
+    .nav-link{   color: antiquewhite;
+
         &:hover { text-decoration: underline}  
-        color: antiquewhite;
+         
                  } 
-    .active{text-decoration: underline;     }
+    .active{text-decoration: underline;  }
      }
 #FCM {background-color: $rojo; }
