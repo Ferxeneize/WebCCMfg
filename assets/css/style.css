@@ -1,6 +1,10 @@
 .navbar {
   background-color: #016936;
 }
+.navbar .navbar-brand {
+  background-color: #016936;
+  max-width: 350px;
+}
 .navbar .nav-link {
   color: antiquewhite;
 }
