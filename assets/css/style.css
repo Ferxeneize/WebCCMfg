@@ -77,6 +77,47 @@
   font-size: 20px;
 }
 
+.rcm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+.rcm .dicho {
+  width: 1000px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.rcm .dicho p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.rcm .dicho .firma {
+  font-style: italic;
+}
+
+.tituloentrevista {
+  text-align: center;
+  font-size: 18px;
+}
+
+.entrevistas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.entrevistas .entrevistasVideo iframe {
+  width: 300px;
+  height: 150px;
+  background-color: aqua;
+  padding: 10px;
+}
+
 @media (max-width: 768px) {
   .presentacion {
     flex-wrap: wrap;
@@ -90,6 +131,26 @@
   }
   .logoccm {
     max-width: 50%;
+  }
+  .logofcm {
+    max-width: 50%;
+  }
+  .rcm .dicho {
+    width: 500px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .rcm .dicho p {
+    font-size: 15px;
+  }
+  .rcm .dicho h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .entrevistas {
+    justify-content: center;
   }
 }
 /*Fin Tarjetas sin boostrap*//*# sourceMappingURL=style.css.map */
