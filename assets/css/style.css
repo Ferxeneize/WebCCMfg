@@ -105,9 +105,7 @@
 .entrevistas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 150px;
+  justify-content: space-evenly;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -145,11 +143,6 @@
   }
   .rcm .dicho h4 {
     font-size: 20px;
-  }
-}
-@media (max-width: 900px) {
-  .entrevistas {
-    justify-content: center;
   }
 }
 /*Fin Tarjetas sin boostrap*//*# sourceMappingURL=style.css.map */
