@@ -3,12 +3,10 @@
 }
 .navbar .nav-link {
   color: antiquewhite;
-}
-.navbar .nav-link:hover {
-  text-decoration: underline;
-}
-.navbar .active {
-  text-decoration: underline;
+  /*  &:hover { text-decoration: underline}  
+
+               } 
+  .active{text-decoration: underline;  }*/
 }
 
 #FCM {
@@ -20,6 +18,36 @@
     max-width: 250px;
   }
 }
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.512);
+  border-radius: 20%;
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  width: 88%;
+  height: 3px;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+.nav-item a.active::after {
+  opacity: 1;
+}
+
+.nav-item a:hover {
+  color: antiquewhite;
+  opacity: 0.9;
+}
+
 .footer {
   padding: 15px;
   display: flex;
@@ -71,10 +99,14 @@
 .presentacion h3 {
   font-family: "Times New Roman", Times, serif;
   font-size: 45px;
+  margin-left: 40px;
+  margin-right: 10px;
 }
 .presentacion p {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin-left: 40px;
+  margin-right: 10px;
 }
 
 .rcm {
@@ -145,4 +177,7 @@
     font-size: 20px;
   }
 }
-/*Fin Tarjetas sin boostrap*//*# sourceMappingURL=style.css.map */
+/*Fin Tarjetas sin boostrap*/
+.objetivos {
+  background-color: gray;
+}/*# sourceMappingURL=style.css.map */
