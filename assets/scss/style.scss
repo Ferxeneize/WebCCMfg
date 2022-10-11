@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
 @import "variables";
 @import "navbar";
 @import "footer";
@@ -5,6 +10,26 @@
 
 
 .objetivos{background-color: gray;}
+
+.btn {
+    width: 100px;
+    border-radius: 10%;
+    box-shadow: 0px 10px 14px -7px #1e4356;
+    color: white;
+    background-color: #006633; 
+    font-size: 15px;
+    /* el efecto al tocar que se ponga blanco es de bootrap*/}
+
+.fs-6{color: rgb(21, 21, 21);}
+.card { box-shadow: 0px 10px 14px -7px #1e4356; }
+.card .card-header { background-color: #006633; }
+.card .card-header .nav-item { opacity: 0.8; }
+
+
+
+
+
+
 
 
 
